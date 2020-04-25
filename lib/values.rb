@@ -10,4 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  groceries.values.flatten
+  # hash.key.flatten method takes all elements OUT of nested arrays and returns it into 1 single array
 end
